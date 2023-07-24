@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import requests  # Import the requests module to make HTTP requests
 import sys  # Import the sys module to access command-line arguments
 
