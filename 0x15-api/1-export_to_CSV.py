@@ -14,7 +14,6 @@ if __name__ == "__main__":
     data = response.json()
 
     row = []
-    
     # Get the user data
     response2 = get('https://jsonplaceholder.typicode.com/users')
     data2 = response2.json()
@@ -38,3 +37,4 @@ if __name__ == "__main__":
                 row.append(i['title'])
 
                 writ.writerow(row)
+
