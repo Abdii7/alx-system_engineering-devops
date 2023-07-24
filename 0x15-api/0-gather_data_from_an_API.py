@@ -15,7 +15,7 @@ if __name__ == "__main__":
     completed = 0
     total = 0
     tasks = []
-    
+
     # Get the user data
     response2 = get('https://jsonplaceholder.typicode.com/users')
     data2 = response2.json()
